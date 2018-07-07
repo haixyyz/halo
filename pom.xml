@@ -33,6 +33,7 @@
         <halo.framework.version>1.0.4</halo.framework.version>
         <toolkit.common.lang.version>1.0</toolkit.common.lang.version>
         <jakarta.commons.beanutils.version>1.8.3</jakarta.commons.beanutils.version>
+        <orika.version>1.5.0</orika.version>
     </properties>
 
     <modules>
@@ -43,6 +44,7 @@
         <module>halo-event</module>
         <module>halo-collection</module>
         <module>halo-base</module>
+        <module>halo-utils</module>
     </modules>
 
     <dependencyManagement>
@@ -188,6 +190,14 @@
                 <version>2.2.6</version>
             </dependency>
             <!--Validation API End -->
+
+            <!--bean copy-->
+            <dependency>
+                <groupId>ma.glasnost.orika</groupId>
+                <artifactId>orika-core</artifactId>
+                <version>${orika.version}</version>
+                <optional>true</optional>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
