@@ -1,6 +1,11 @@
 ## Halo Framework
 
-Halo Framework,光环框架是基于DDD+CQRS+扩展点+业务中间件，业务系统使用之自带光环!
+   Halo, 发音美 [ˈheɪloʊ]，和hello发音基本一致，中文名光环。Halo是Hallo的简写，是德语你好的意思。
+Halo框架名寓意是赋能于业务应用开发，业务方使用者自带光环，脚踏七彩祥云，为业务开发造福，为业务架构治理和防腐提供统一的方法论。
+Halo框架是基于CQRS+扩展点+流程编排的应用框架，致力于采用领域驱动的设计思想，规范控制程序员的随心所欲，从而解决软件的复杂性问题。
+架构原则很简单，即在高内聚，低耦合，可扩展，易理解大的指导思想下，尽可能的贯彻OO的设计思想和原则。
+
+> Halo Framework,光环框架是基于DDD+CQRS+扩展点+业务中间件，业务系统使用之自带光环!
 
 > Halo,中文名光环。美 [ˈheɪloʊ]，Halo是Hallo的简写，是德语你好的意思。
 
@@ -16,6 +21,7 @@ Halo Framework,光环框架是基于DDD+CQRS+扩展点+业务中间件，业务�
 | halo-flow | 流程编排 | todo 待重构 |
 | halo-test | 框架测试模块 | todo 待重构 |
 | halo-utils | 框架工具类用于各种DTO对象之间快速复制 |  |
+| halo-springcloud | 分布式Command |第二种结合Spring Cloud  |
 
 ## 使用
 
