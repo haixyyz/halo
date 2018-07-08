@@ -45,11 +45,27 @@
         <module>halo-collection</module>
         <module>halo-base</module>
         <module>halo-utils</module>
+        <module>halo-starter</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
             <!--项目依赖 -->
+
+            <dependency>
+                <groupId>org.xujin.halo</groupId>
+                <artifactId>halo-utils</artifactId>
+                <version>${halo.framework.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.xujin.halo</groupId>
+                <artifactId>halo-starter</artifactId>
+                <version>${halo.framework.version}</version>
+                <scope>test</scope>
+            </dependency>
+
             <dependency>
                 <groupId>org.xujin.halo</groupId>
                 <artifactId>halo-test</artifactId>
